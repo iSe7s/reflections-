@@ -1,0 +1,543 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A744B07A1C26AF5200AD5EF0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A744B0791C26AF5200AD5EF0 /* main.m */; };
+		A744B07D1C26AF5200AD5EF0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A744B07C1C26AF5200AD5EF0 /* AppDelegate.m */; };
+		A744B0801C26AF5200AD5EF0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A744B07F1C26AF5200AD5EF0 /* ViewController.m */; };
+		A744B0831C26AF5200AD5EF0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A744B0811C26AF5200AD5EF0 /* Main.storyboard */; };
+		A744B0861C26AF5200AD5EF0 /* JandyDemo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A744B0841C26AF5200AD5EF0 /* JandyDemo.xcdatamodeld */; };
+		A744B0881C26AF5200AD5EF0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A744B0871C26AF5200AD5EF0 /* Assets.xcassets */; };
+		A744B08B1C26AF5200AD5EF0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A744B0891C26AF5200AD5EF0 /* LaunchScreen.storyboard */; };
+		A744B0961C26AF5300AD5EF0 /* JandyDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A744B0951C26AF5300AD5EF0 /* JandyDemoTests.m */; };
+		A744B0A11C26AF5300AD5EF0 /* JandyDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A744B0A01C26AF5300AD5EF0 /* JandyDemoUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A744B0921C26AF5300AD5EF0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A744B06D1C26AF5200AD5EF0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A744B0741C26AF5200AD5EF0;
+			remoteInfo = JandyDemo;
+		};
+		A744B09D1C26AF5300AD5EF0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A744B06D1C26AF5200AD5EF0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A744B0741C26AF5200AD5EF0;
+			remoteInfo = JandyDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A744B0751C26AF5200AD5EF0 /* JandyDemo20122015.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JandyDemo20122015.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A744B0791C26AF5200AD5EF0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A744B07B1C26AF5200AD5EF0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A744B07C1C26AF5200AD5EF0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A744B07E1C26AF5200AD5EF0 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A744B07F1C26AF5200AD5EF0 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A744B0821C26AF5200AD5EF0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A744B0851C26AF5200AD5EF0 /* JandyDemo.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = JandyDemo.xcdatamodel; sourceTree = "<group>"; };
+		A744B0871C26AF5200AD5EF0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A744B08A1C26AF5200AD5EF0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A744B08C1C26AF5200AD5EF0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A744B0911C26AF5300AD5EF0 /* JandyDemo20122015.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JandyDemo20122015.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A744B0951C26AF5300AD5EF0 /* JandyDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JandyDemoTests.m; sourceTree = "<group>"; };
+		A744B0971C26AF5300AD5EF0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A744B09C1C26AF5300AD5EF0 /* JandyDemo20122015.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JandyDemo20122015.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A744B0A01C26AF5300AD5EF0 /* JandyDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JandyDemoUITests.m; sourceTree = "<group>"; };
+		A744B0A21C26AF5300AD5EF0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A744B0721C26AF5200AD5EF0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A744B08E1C26AF5300AD5EF0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A744B0991C26AF5300AD5EF0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A744B06C1C26AF5200AD5EF0 = {
+			isa = PBXGroup;
+			children = (
+				A744B0771C26AF5200AD5EF0 /* JandyDemo */,
+				A744B0941C26AF5300AD5EF0 /* JandyDemoTests */,
+				A744B09F1C26AF5300AD5EF0 /* JandyDemoUITests */,
+				A744B0761C26AF5200AD5EF0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A744B0761C26AF5200AD5EF0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A744B0751C26AF5200AD5EF0 /* JandyDemo20122015.app */,
+				A744B0911C26AF5300AD5EF0 /* JandyDemo20122015.xctest */,
+				A744B09C1C26AF5300AD5EF0 /* JandyDemo20122015.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A744B0771C26AF5200AD5EF0 /* JandyDemo */ = {
+			isa = PBXGroup;
+			children = (
+				A744B07B1C26AF5200AD5EF0 /* AppDelegate.h */,
+				A744B07C1C26AF5200AD5EF0 /* AppDelegate.m */,
+				A744B07E1C26AF5200AD5EF0 /* ViewController.h */,
+				A744B07F1C26AF5200AD5EF0 /* ViewController.m */,
+				A744B0811C26AF5200AD5EF0 /* Main.storyboard */,
+				A744B0871C26AF5200AD5EF0 /* Assets.xcassets */,
+				A744B0891C26AF5200AD5EF0 /* LaunchScreen.storyboard */,
+				A744B08C1C26AF5200AD5EF0 /* Info.plist */,
+				A744B0841C26AF5200AD5EF0 /* JandyDemo.xcdatamodeld */,
+				A744B0781C26AF5200AD5EF0 /* Supporting Files */,
+			);
+			path = JandyDemo;
+			sourceTree = "<group>";
+		};
+		A744B0781C26AF5200AD5EF0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A744B0791C26AF5200AD5EF0 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A744B0941C26AF5300AD5EF0 /* JandyDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				A744B0951C26AF5300AD5EF0 /* JandyDemoTests.m */,
+				A744B0971C26AF5300AD5EF0 /* Info.plist */,
+			);
+			path = JandyDemoTests;
+			sourceTree = "<group>";
+		};
+		A744B09F1C26AF5300AD5EF0 /* JandyDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A744B0A01C26AF5300AD5EF0 /* JandyDemoUITests.m */,
+				A744B0A21C26AF5300AD5EF0 /* Info.plist */,
+			);
+			path = JandyDemoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A744B0741C26AF5200AD5EF0 /* JandyDemo20122015 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A744B0A51C26AF5300AD5EF0 /* Build configuration list for PBXNativeTarget "JandyDemo20122015" */;
+			buildPhases = (
+				A744B0711C26AF5200AD5EF0 /* Sources */,
+				A744B0721C26AF5200AD5EF0 /* Frameworks */,
+				A744B0731C26AF5200AD5EF0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JandyDemo20122015;
+			productName = JandyDemo;
+			productReference = A744B0751C26AF5200AD5EF0 /* JandyDemo20122015.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A744B0901C26AF5300AD5EF0 /* JandyDemo20122015Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A744B0A81C26AF5300AD5EF0 /* Build configuration list for PBXNativeTarget "JandyDemo20122015Tests" */;
+			buildPhases = (
+				A744B08D1C26AF5300AD5EF0 /* Sources */,
+				A744B08E1C26AF5300AD5EF0 /* Frameworks */,
+				A744B08F1C26AF5300AD5EF0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A744B0931C26AF5300AD5EF0 /* PBXTargetDependency */,
+			);
+			name = JandyDemo20122015Tests;
+			productName = JandyDemoTests;
+			productReference = A744B0911C26AF5300AD5EF0 /* JandyDemo20122015.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A744B09B1C26AF5300AD5EF0 /* JandyDemo20122015UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A744B0AB1C26AF5300AD5EF0 /* Build configuration list for PBXNativeTarget "JandyDemo20122015UITests" */;
+			buildPhases = (
+				A744B0981C26AF5300AD5EF0 /* Sources */,
+				A744B0991C26AF5300AD5EF0 /* Frameworks */,
+				A744B09A1C26AF5300AD5EF0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A744B09E1C26AF5300AD5EF0 /* PBXTargetDependency */,
+			);
+			name = JandyDemo20122015UITests;
+			productName = JandyDemoUITests;
+			productReference = A744B09C1C26AF5300AD5EF0 /* JandyDemo20122015.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A744B06D1C26AF5200AD5EF0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Spell advertising";
+				TargetAttributes = {
+					A744B0741C26AF5200AD5EF0 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 9VAQBJTTCS;
+					};
+					A744B0901C26AF5300AD5EF0 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = A744B0741C26AF5200AD5EF0;
+					};
+					A744B09B1C26AF5300AD5EF0 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = A744B0741C26AF5200AD5EF0;
+					};
+				};
+			};
+			buildConfigurationList = A744B0701C26AF5200AD5EF0 /* Build configuration list for PBXProject "JandyDemo20122015" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A744B06C1C26AF5200AD5EF0;
+			productRefGroup = A744B0761C26AF5200AD5EF0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A744B0741C26AF5200AD5EF0 /* JandyDemo20122015 */,
+				A744B0901C26AF5300AD5EF0 /* JandyDemo20122015Tests */,
+				A744B09B1C26AF5300AD5EF0 /* JandyDemo20122015UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A744B0731C26AF5200AD5EF0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A744B08B1C26AF5200AD5EF0 /* LaunchScreen.storyboard in Resources */,
+				A744B0881C26AF5200AD5EF0 /* Assets.xcassets in Resources */,
+				A744B0831C26AF5200AD5EF0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A744B08F1C26AF5300AD5EF0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A744B09A1C26AF5300AD5EF0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A744B0711C26AF5200AD5EF0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A744B0801C26AF5200AD5EF0 /* ViewController.m in Sources */,
+				A744B0861C26AF5200AD5EF0 /* JandyDemo.xcdatamodeld in Sources */,
+				A744B07D1C26AF5200AD5EF0 /* AppDelegate.m in Sources */,
+				A744B07A1C26AF5200AD5EF0 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A744B08D1C26AF5300AD5EF0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A744B0961C26AF5300AD5EF0 /* JandyDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A744B0981C26AF5300AD5EF0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A744B0A11C26AF5300AD5EF0 /* JandyDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A744B0931C26AF5300AD5EF0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A744B0741C26AF5200AD5EF0 /* JandyDemo20122015 */;
+			targetProxy = A744B0921C26AF5300AD5EF0 /* PBXContainerItemProxy */;
+		};
+		A744B09E1C26AF5300AD5EF0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A744B0741C26AF5200AD5EF0 /* JandyDemo20122015 */;
+			targetProxy = A744B09D1C26AF5300AD5EF0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A744B0811C26AF5200AD5EF0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A744B0821C26AF5200AD5EF0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A744B0891C26AF5200AD5EF0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A744B08A1C26AF5200AD5EF0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A744B0A31C26AF5300AD5EF0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A744B0A41C26AF5300AD5EF0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A744B0A61C26AF5300AD5EF0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = JandyDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.spelladv.JandyDemo;
+				PRODUCT_NAME = JandyDemo20122015;
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		A744B0A71C26AF5300AD5EF0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = JandyDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.spelladv.JandyDemo;
+				PRODUCT_NAME = JandyDemo20122015;
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+		A744B0A91C26AF5300AD5EF0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = JandyDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.spelladv.JandyDemoTests;
+				PRODUCT_NAME = JandyDemo20122015;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JandyDemo20122015.app/JandyDemo20122015";
+			};
+			name = Debug;
+		};
+		A744B0AA1C26AF5300AD5EF0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = JandyDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.spelladv.JandyDemoTests;
+				PRODUCT_NAME = JandyDemo20122015;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JandyDemo20122015.app/JandyDemo20122015";
+			};
+			name = Release;
+		};
+		A744B0AC1C26AF5300AD5EF0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = JandyDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.spelladv.JandyDemoUITests;
+				PRODUCT_NAME = JandyDemo20122015;
+				TEST_TARGET_NAME = JandyDemo;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		A744B0AD1C26AF5300AD5EF0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = JandyDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.spelladv.JandyDemoUITests;
+				PRODUCT_NAME = JandyDemo20122015;
+				TEST_TARGET_NAME = JandyDemo;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A744B0701C26AF5200AD5EF0 /* Build configuration list for PBXProject "JandyDemo20122015" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A744B0A31C26AF5300AD5EF0 /* Debug */,
+				A744B0A41C26AF5300AD5EF0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A744B0A51C26AF5300AD5EF0 /* Build configuration list for PBXNativeTarget "JandyDemo20122015" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A744B0A61C26AF5300AD5EF0 /* Debug */,
+				A744B0A71C26AF5300AD5EF0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A744B0A81C26AF5300AD5EF0 /* Build configuration list for PBXNativeTarget "JandyDemo20122015Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A744B0A91C26AF5300AD5EF0 /* Debug */,
+				A744B0AA1C26AF5300AD5EF0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A744B0AB1C26AF5300AD5EF0 /* Build configuration list for PBXNativeTarget "JandyDemo20122015UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A744B0AC1C26AF5300AD5EF0 /* Debug */,
+				A744B0AD1C26AF5300AD5EF0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		A744B0841C26AF5200AD5EF0 /* JandyDemo.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				A744B0851C26AF5200AD5EF0 /* JandyDemo.xcdatamodel */,
+			);
+			currentVersion = A744B0851C26AF5200AD5EF0 /* JandyDemo.xcdatamodel */;
+			path = JandyDemo.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = A744B06D1C26AF5200AD5EF0 /* Project object */;
+}
